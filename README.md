@@ -21,3 +21,4 @@ New Coding Tips:
 1) Sort dictionary by value in python. (key, value)    
 2) Use of tuple
 3) Use of Counter
+4) Use of jellyfish.metaphone
