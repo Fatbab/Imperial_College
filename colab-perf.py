@@ -22,7 +22,7 @@ lastname= []
 # Read in only relevant patent data: 
 # patent_number (pnum), patent_performance (perf), inventor_id (invnum), inventor_lastname (lastname)
 # (In this task, we don't need to keep track of the associated firm.)
-with open('/PATH/TO/PATENT DATA/D3 patent_data.csv', 'rb') as f:
+with open('/PATH/TO/READ/D3 patent_data.csv', 'rb') as f:
     next(f) # skip header line
     reader = csv.reader(f,delimiter=',')
     for row in reader:
@@ -75,7 +75,7 @@ for k in invnum_count_avgPerf.keys():
 ## Export Restults to CSV
 ## CSV format of: inventor_ids, number of collaborations, average patent performance
 #import csv
-with open('/PATH/TO/WRITE/OUTCOME/invnum_count_avgPerf.csv','wb') as f:
+with open('/PATH/TO/WRITE/invnum_count_avgPerf.csv','wb') as f:
     writer = csv.writer(f)
     header = 'invnum', 'colab', 'avgPerf'
     writer.writerow(header)
@@ -87,7 +87,7 @@ with open('/PATH/TO/WRITE/OUTCOME/invnum_count_avgPerf.csv','wb') as f:
 
 
 #import csv
-with open('/PATH/TO/WRITE/OUTCOME/soloInv_count_avgPerf.csv','wb') as f:
+with open('/PATH/TO/WRITE/soloInv_count_avgPerf.csv','wb') as f:
     writer = csv.writer(f)
     header = 'invnum', 'colab', 'avgPerf'
     writer.writerow(header)
@@ -101,7 +101,7 @@ with open('/PATH/TO/WRITE/OUTCOME/soloInv_count_avgPerf.csv','wb') as f:
 
 #from herfindahl import herfindahl
 #import csv
-with open('/PATH/TO/WRITE/OUTCOME/teamInv_count_avgPerf_size_hindex.csv','wb') as f:
+with open('/PATH/TO/WRITE/teamInv_count_avgPerf_size_hindex.csv','wb') as f:
     writer = csv.writer(f)
     header = 'invnum', 'colab', 'avgPerf', 'size', 'hindex'
     writer.writerow(header)
