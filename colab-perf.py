@@ -1,7 +1,6 @@
 ## Workforce Analytics
 ## Task 1: What is the relationship between the number of times inventors collaborate and project performance? 
 
-
 import codecs
 import os.path
 import csv
