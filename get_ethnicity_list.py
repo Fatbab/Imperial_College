@@ -4,7 +4,7 @@ import jellyfish
 import pickle
 
 ## Load pickle file
-pkl_file = open('/PATH/TO/D4name_ethnicity.pkl','rb')
+pkl_file = open('/PATH/TO/READ/D4name_ethnicity.pkl','rb')
 D4name_ethnicity=pickle.load(pkl_file)
 pkl_file.close()
 
