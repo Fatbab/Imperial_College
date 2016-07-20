@@ -18,7 +18,8 @@ Notes:
 3) Data obtained here is later imported to R for Possion regression. Since we have count data, Poisson is the suitable model.      
 
 New Coding Tips:    
-1) Sort dictionary by value in python. (key, value)    
-2) Use of tuple
-3) Use of Counter
-4) Use of jellyfish.metaphone
+1) Sort dictionary by key in python. (key, value)    
+2) Collapse a list of lists into one list.    
+3) Use of tuple.    
+4) Use of Counter.    
+5) Use of jellyfish.metaphone.    
