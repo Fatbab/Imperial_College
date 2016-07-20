@@ -7,7 +7,7 @@ Task2: What is the relationship between the ethnic composition of a firm and the
        will move to that firm?   
 
 Dataset:   
-D1: Firm Profiles   
+D1: Firm Profiles (too large and has not been directly used so is not uploaded)    
 D2: Firm Level Data   
 D3: Patent Data    
 D4: Surnames and Ethnicities reference file    
