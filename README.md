@@ -2,8 +2,8 @@
 Imperial College London - Business School    
 Feb 2016   
 
-#### Task1: What is the relationship between the number of times inventors collaborate and project performance?   
-#### Task2: What is the relationship between the ethnic composition of a firm and the likelihood that an inventor will move to that firm?   
+#### Task1: What is the relationship between the number of times inventors collaborate and project performance? (colab-perf.py)
+#### Task2: What is the relationship between the ethnic composition of a firm and the likelihood that an inventor will move to that firm? (move-ethni.py) 
 
 ## Dataset:   
 D1: Firm Profiles (too large and has not been directly used so is not uploaded)    
