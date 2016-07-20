@@ -1,33 +1,12 @@
-## Herfindahl Code
-## my code
-'''
-def herfindahl(diversity_list):
-    diversity_list.sort()
-    #n = len(diversity_list)
-    similarity_list=[]
-    similarity_dict={}
-    while (diversity_list):
-        personality = diversity_list[0]
-        k=1
-        for j in range (1, len(diversity_list)):
-            if diversity_list[j] == personality:
-                k= k+1
-            else:
-                diversity_list.remove(personality)        
-                break 
-                
-        similarity_list.append(k)
-        similarity_dict[personality] =k
-    
-    
-    for i in range
-    
-    
-    return (similarity_list, similarity_dict)
-'''
+## Herfindahl Function: Sum(rate_i)^2 
+## rate_i being the number of times item i appears in a list divided by the total number of items in the list.
+## So the funstion assigns a single float number to every input list.
+## The more diverse a list, the smaller the result. The more homogenous the list, the larger the result.
+## For diversity measures, we take 1-herfindahl so diverse list get larger values.
+## Code is from Tufool AlNuaimi's lecture notes (http://www.imperial.ac.uk/people/t.alnuaimi)
 
-## Class Code
 from collections import Counter
+
 def herfindahl(input_list):
     cntry_cnt = Counter(input_list)
     vals = cntry_cnt.values()
