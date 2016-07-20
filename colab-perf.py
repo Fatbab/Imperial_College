@@ -75,7 +75,7 @@ for k in invnum_count_avgPerf.keys():
 
 ## Export Restults to CSV
 ## CSV format of: inventor_ids, number of collaborations, average patent performance
-import csv
+#import csv
 with open('/PATH/TO/WRITE/OUTCOME/invnum_count_avgPerf.csv','wb') as f:
     writer = csv.writer(f)
     header = 'invnum', 'colab', 'avgPerf'
@@ -87,7 +87,7 @@ with open('/PATH/TO/WRITE/OUTCOME/invnum_count_avgPerf.csv','wb') as f:
         writer.writerow(temp_row)
 
 
-import csv
+#import csv
 with open('/PATH/TO/WRITE/OUTCOME/soloInv_count_avgPerf.csv','wb') as f:
     writer = csv.writer(f)
     header = 'invnum', 'colab', 'avgPerf'
@@ -101,7 +101,7 @@ with open('/PATH/TO/WRITE/OUTCOME/soloInv_count_avgPerf.csv','wb') as f:
 
 
 #from herfindahl import herfindahl
-import csv
+#import csv
 with open('/PATH/TO/WRITE/OUTCOME/teamInv_count_avgPerf_size_hindex.csv','wb') as f:
     writer = csv.writer(f)
     header = 'invnum', 'colab', 'avgPerf', 'size', 'hindex'
