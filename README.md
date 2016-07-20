@@ -16,6 +16,8 @@ Notes:
 1) Herfindahl index is a measure for diversity of sets.  Let 1-Herfindahl be h-index.    
 2) Every team is assigned an h-index based on members ethnicities. Ethinicity is implied from metaphonic version of team members' last names.    
 3) Data obtained here is later imported to R for Possion regression. Since we have count data, Poisson is the suitable model.      
+
 New Coding Tips:    
 1) Sort dictionary by value in python. (key, value)    
-2) use of tuple
+2) Use of tuple
+3) Use of Counter
